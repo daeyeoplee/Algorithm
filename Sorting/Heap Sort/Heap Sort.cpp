@@ -1,5 +1,12 @@
 #include <iostream>
 
+/*
+Heap Sort
+O(NlogN)
+using full binary tree(heap tree structure)
+no additional memory require
+*/
+
 using namespace std;
 
 int main() {
