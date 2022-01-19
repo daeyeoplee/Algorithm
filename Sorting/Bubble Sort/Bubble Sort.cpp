@@ -1,5 +1,12 @@
 #include <iostream>
 
+/*
+Bubble Sort
+O(N^2)
+simple but inefficient
+frequent swap function occur
+*/
+
 using namespace std;
 
 int main() {

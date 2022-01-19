@@ -1,5 +1,11 @@
 #include <iostream>
 
+/*
+Selection Sort
+O(N^2)
+find largest or smallest ones
+*/
+
 using namespace std;
 
 int main() {

@@ -1,5 +1,13 @@
 #include <iostream>
 
+/*
+Quick sort
+normally O(NlogN)
+but when it's already sorted O(N^2)
+using pivot -> choosing appropriate pivot value is important
+divide and conquer alogirhtm
+*/
+
 using namespace std;
 
 void qsort(int list[], int left, int right) {
@@ -7,7 +15,7 @@ void qsort(int list[], int left, int right) {
 
 	int pivot = left;
 	int i = left+1, j = right;
-	while (i <= j) {
+	while (i <= j) { // less than pivot ~~ pivot ~~ greater than pivot
 		while (i <= right && list[i] <= list[pivot]) i++;
 
 		while (j > left && list[j] >= list[pivot]) j--;
@@ -16,8 +24,8 @@ void qsort(int list[], int left, int right) {
 		else swap(list[j], list[pivot]);
 	}
 
-	qsort(list, left, j - 1);
-	qsort(list, j + 1, right);
+	qsort(list, left, j - 1); // divide
+	qsort(list, j + 1, right); // divide
 }
 
 int main() {

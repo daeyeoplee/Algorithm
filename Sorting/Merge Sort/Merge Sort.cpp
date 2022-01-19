@@ -1,10 +1,16 @@
 #include <iostream>
 
+/*
+Merge Sort
+always ensure O(NlogN)
+but require additional memory
+*/
+
 using namespace std;
 
 int sorted[10];
 
-void merge(int list[], int left, int right) {
+void merge(int list[], int left, int right) { // sorting while merge
 	int mid = (left + right) / 2;
 	int i = left, j = mid + 1, k = left;
 	while (i <= mid && j <= right) {
@@ -32,7 +38,7 @@ void merge(int list[], int left, int right) {
 	}
 }
 
-void merge_sort(int list[], int left, int right) {
+void merge_sort(int list[], int left, int right) { // divide left &  right
 	if (left < right) {
 		int mid = (left + right) / 2;
 		merge_sort(list, left, mid);
