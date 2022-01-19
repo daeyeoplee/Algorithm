@@ -1,2 +1,5 @@
 # Algorithm
-algorithm study
+
+personal algorithm study note
+
+refrence from 
