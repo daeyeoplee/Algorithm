@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dijkstra", "Dijkstra\Dijkst
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Floyd Warshall", "Floyd Warshall\Floyd Warshall.vcxproj", "{DC233EA6-C23C-4C11-A4E5-ED1632334346}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Edmonds-Karp", "Edmonds-Karp\Edmonds-Karp.vcxproj", "{DEB41EA5-D9C6-4594-B46F-7E00876AC850}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{DC233EA6-C23C-4C11-A4E5-ED1632334346}.Release|x64.Build.0 = Release|x64
 		{DC233EA6-C23C-4C11-A4E5-ED1632334346}.Release|x86.ActiveCfg = Release|Win32
 		{DC233EA6-C23C-4C11-A4E5-ED1632334346}.Release|x86.Build.0 = Release|Win32
+		{DEB41EA5-D9C6-4594-B46F-7E00876AC850}.Debug|x64.ActiveCfg = Debug|x64
+		{DEB41EA5-D9C6-4594-B46F-7E00876AC850}.Debug|x64.Build.0 = Debug|x64
+		{DEB41EA5-D9C6-4594-B46F-7E00876AC850}.Debug|x86.ActiveCfg = Debug|Win32
+		{DEB41EA5-D9C6-4594-B46F-7E00876AC850}.Debug|x86.Build.0 = Debug|Win32
+		{DEB41EA5-D9C6-4594-B46F-7E00876AC850}.Release|x64.ActiveCfg = Release|x64
+		{DEB41EA5-D9C6-4594-B46F-7E00876AC850}.Release|x64.Build.0 = Release|x64
+		{DEB41EA5-D9C6-4594-B46F-7E00876AC850}.Release|x86.ActiveCfg = Release|Win32
+		{DEB41EA5-D9C6-4594-B46F-7E00876AC850}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
