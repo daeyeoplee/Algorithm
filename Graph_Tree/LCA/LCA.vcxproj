@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{ca33bee3-c7fc-47d6-b960-beaa6fa6b5f2}</ProjectGuid>
+    <ProjectGuid>{5e9fe989-7722-4976-a521-222332eaea44}</ProjectGuid>
     <RootNamespace>LCA</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
